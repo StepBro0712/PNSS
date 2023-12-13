@@ -57,7 +57,7 @@ class CreateDoc
 
             if (Document::create([
                 'title'=>$request->title,
-                'discription'=>$request->discription,
+                'description'=>$request->discription,
                 'status'=>$request->status,
                 'date_of_creation'=>$request->date_of_creation,
                 'author'=>$request->author,
