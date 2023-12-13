@@ -9,11 +9,11 @@ use Src\Auth\Auth;
 
         <p>Добро пожаловать, <?= app()->auth::user()->full_name ?> </p>
         <?php if (Auth::user()->role === 'Админ'): ?>
-            <p class="cn">Выполни свои прямые обязанности!!! Внеси новых пользователей с систему</p>
+            <p class="cn">Создавайте новых пользователей с систему</p>
             <a class="btm1" href="<?= app()->route->getUrl('/signup') ?>">Создать пользователя</a>
         <?php endif; ?>
         <?php if (Auth::user()->role === 'Методист'): ?>
-            <p class="cn">Выполни свои прямые обязанности!!! Напиши уже новую методичку</p>
+            <p class="cn">Создавайте новую методичку</p>
             <a class="btm1" href="<?= app()->route->getUrl('/createDoc') ?>">Создать документ</a>
         <?php endif; ?>
 
