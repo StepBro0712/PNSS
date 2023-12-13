@@ -18,7 +18,7 @@ use Src\Auth\Auth;
         <?php endif; ?>
 
     </div>
-    <img src="../../../mvc/public/assets/image/книги.jpg" alt="Книги">
+    <img src="../../../PNSS2/public/assets/image/книги.jpg" alt="Книги">
     </div>
     <div class="doc">
         <p>Документы</p>

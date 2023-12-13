@@ -27,12 +27,12 @@ use Src\Auth\Auth;
 
 
     </div>
-    <img src="../../../mvc/public/assets/image/книги.jpg" alt="Книги">
+    <img src="../../../PNSS2/public/assets/image/книги.jpg" alt="Книги">
 </div>
 <div class="ttt">
     <?php
     foreach ($viewdocs as $viewdoc) {
-        echo '<a target="_blank" href=mvc/'. $viewdoc->file . '> Скачать </a>';
+        echo '<a target="_blank" href="/PNSS2/profile"'. $viewdoc->file . '> Скачать </a>';
     }
     ?>
     <?php if (Auth::user()->role === 'Админ'):
