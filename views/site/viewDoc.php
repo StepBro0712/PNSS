@@ -27,7 +27,7 @@ use Src\Auth\Auth;
 
 
     </div>
-    <img src="../../../PNSS2/public/assets/image/книги.jpg" alt="Книги">
+    <img src="../../../PNSS/public/assets/image/книги.jpg" alt="Книги">
 </div>
 <div class="ttt">
     <?php
